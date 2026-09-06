@@ -1,0 +1,28 @@
+{
+  "_note": "Format legality data. VERIFY every value against pokemon.com before shipping. Only the 2026 Standard rotation below was checked against the official announcement; everything else is a placeholder shape.",
+  "_sources": [
+    "https://www.pokemon.com/us/pokemon-news/2026-pokemon-tcg-standard-format-rotation-announcement"
+  ],
+  "formats": {
+    "standard": {
+      "rotations": [
+        {
+          "effective_paper": "2026-04-10",
+          "effective_digital": "2026-03-26",
+          "legal_marks": ["H", "I", "J"],
+          "rotated_out": ["G"],
+          "source": "2026 Standard Format Rotation Announcement"
+        }
+      ],
+      "future_marks_legal": true,
+      "banned": []
+    },
+    "expanded": {
+      "_todo": "Expanded is set-range based (Black & White onward) plus a ban list, not mark based. Fill from the official Expanded ban list before enabling.",
+      "rotations": [],
+      "banned": []
+    },
+    "unlimited": { "everything_legal": true, "banned": [] },
+    "glc": { "_todo": "Gym Leader Challenge is community-run, not Play! Pokemon. Decide whether it is in scope at all." }
+  }
+}

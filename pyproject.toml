@@ -1,0 +1,15 @@
+[project]
+name = "judge-mcp"
+version = "0.1.0"
+description = "Unofficial Pokemon TCG rules connector for judges, over MCP"
+requires-python = ">=3.10"
+dependencies = ["mcp>=2.1.1"]
+
+[project.optional-dependencies]
+build = ["pypdf>=5"]
+
+[dependency-groups]
+dev = ["pytest>=8", "pytest-asyncio>=0.24", "jsonschema>=4"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
